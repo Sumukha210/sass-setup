@@ -1,0 +1,19 @@
+{
+  "name": "sass-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./pages/about.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "postcss-modules": "^4.2.2",
+    "postcss-uncss": "^0.17.0",
+    "sass": "^1.39.0",
+    "uncss": "^0.17.3"
+  },
+  "dependencies": {
+    "bootstrap": "5.0.2"
+  }
+}
